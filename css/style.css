@@ -275,8 +275,21 @@ h1, h2, h3, h4, h5, h6 {
   margin: 5px 0;
 }
 
+/* Nav Meu Container */
+#nav-menu-container-home {
+  float: right;
+  margin: 5px 0;
+  color: black;
+}
+
 @media (max-width: 768px) {
   #nav-menu-container {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  #nav-menu-container-home {
     display: none;
   }
 }
