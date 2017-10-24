@@ -98,74 +98,14 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0;
   padding: 0;
   text-align: center;
-  vertical-align: middle;
-}
-
-#hero h1 {
-  margin: 30px 0 10px 0;
-  font-weight: 700;
-  line-height: 48px;
-  text-transform: uppercase;
-  color: #fff;
-}
-
-@media (max-width: 768px) {
-  #hero h1 {
-    font-size: 28px;
-    line-height: 36px;
-  }
-}
-
-#hero h2 {
-  color: #999;
-  margin-bottom: 50px;
-}
-
-@media (max-width: 768px) {
-  #hero h2 {
-    font-size: 24px;
-    line-height: 26px;
-    margin-bottom: 30px;
-  }
-  #hero h2 .rotating {
-    display: block;
-  }
-}
-
-#hero .rotating > .animated {
-  display: inline-block;
-}
-
-#hero .actions a {
-  font-family: "Raleway", sans-serif;
-  text-transform: uppercase;
-  font-weight: 500;
-  font-size: 16px;
-  letter-spacing: 1px;
-  display: inline-block;
-  padding: 8px 20px;
-  border-radius: 2px;
-  transition: 0.5s;
-  margin: 10px;
-}
-
-#hero .btn-get-started {
-  background: #b3d3e5;
-  border: 2px solid #b3d3e5;
-  color: #fff;
-}
-
-#hero .btn-get-started:hover {
-  background: none;
-  border: 2px solid #fff;
-  color: #fff;
+  padding-top: 100px;
 }
 
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
 #header {
-  background: #111;
+  background: black;
   padding: 20px 0;
   height: 90px;
 }
@@ -275,8 +215,21 @@ h1, h2, h3, h4, h5, h6 {
   margin: 5px 0;
 }
 
+/* Nav Meu Container */
+#nav-menu-container-home {
+  float: right;
+  margin: 5px 0;
+  color: black;
+}
+
 @media (max-width: 768px) {
   #nav-menu-container {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  #nav-menu-container-home {
     display: none;
   }
 }
@@ -472,12 +425,12 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #about .about-container {
-  background: url(../img/bae.gif) left top no-repeat;	
+  background: url(../img/about-img.jpg) left top no-repeat; 
 }
 
 #about .about-content {
   background: #efefef;
-	padding-left: 15px;
+  padding-left: 15px;
 }
 
 #about .about-title {
@@ -495,9 +448,9 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .class-date{
-	font-size: 12px;
-	padding-right: 45px;
-	color: slategray;
+  font-size: 12px;
+  padding-right: 45px;
+  color: slategray;
 
 }
 
@@ -593,23 +546,23 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .position{
-	font-family: "proxima-nova";
-	text-transform: uppercase;
-	margin-bottom: 15px;
-	font-size: 20px;
+  font-family: "proxima-nova";
+  text-transform: uppercase;
+  margin-bottom: 15px;
+  font-size: 20px;
 }
 
 .job-date{
-	text-align: right;
-	font-size: 12px;
-	padding-right: 45px;
-	color: slategray;
+  text-align: right;
+  font-size: 12px;
+  padding-right: 45px;
+  color: slategray;
 
 }
 
 .work-description {
-	padding-left: 130px;
-	line-height: 24px;
+  padding-left: 130px;
+  line-height: 24px;
 }
 
 .list-item li {
@@ -629,8 +582,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* Portfolio Section
 --------------------------------*/
 #portfolio {
-	background: #efefef;
-	padding: 80px 0;
+  background: #efefef;
+  padding: 80px 0;
 }
 
 #portfolio .portfolio-item {
@@ -692,17 +645,17 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #portfolio .portfolio-item .light-box-open {
-	align-content: center;
-    overflow-x: auto; 	
+  align-content: center;
+    overflow-x: auto;   
 }
 
 .featherlight:last-of-type {
-    background: rgba(0,0,0,.9);
+    background: rgba(0,0,0,.85);
 }
 
 @media only screen and (max-width: 360px) {
-	#portfolio .portfolio-item .light-box-open {
-		max-width:750px;
+  #portfolio .portfolio-item .light-box-open {
+    max-width:750px;
     }
 }
 
@@ -730,15 +683,15 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 
 #contact .blurb {
-	text-align: center;
-  	margin-bottom: 40px;
-	padding-top: 40px;
-	font-size: 15px;
-	color: dimgray;
+  text-align: center;
+    margin-bottom: 40px;
+  padding-top: 40px;
+  font-size: 15px;
+  color: dimgray;
 }
 
 #contact .mail-link {
-	color: #333333;
-	text-decoration: none;
-	font-weight: normal;
+  color: #333333;
+  text-decoration: none;
+  font-weight: normal;
 }
