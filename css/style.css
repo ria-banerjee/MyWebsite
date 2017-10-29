@@ -447,6 +447,10 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-bottom: 0;
 }
 
+#about .last-paragraph {
+  margin-top: 20px;
+}
+
 .class-date{
 	font-size: 12px;
 	padding-right: 45px;
