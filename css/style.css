@@ -441,6 +441,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #about .about-text {
   line-height: 26px;
+  text-align: justify;
+  padding-left: 10px;
 }
 
 #about .about-text:last-child {
@@ -676,7 +678,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------*/
 #contact {
   background: #efefef;
-  padding: 90px 0 100px 0px;
+  padding: 90px 0 250px 0px;
+  background-size: cover;
 }
 
 #contact .info {
